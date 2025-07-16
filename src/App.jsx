@@ -5,6 +5,7 @@ import Todolist from "./components/Todolist";
 import UserProfile from "./components/UserProfile"
 import Counter from "./components/counter";
 import InputHandler from "./components/InputHandler";
+import Greeting from "./components/Greeting";
 
 function App() {
 
@@ -33,6 +34,8 @@ function App() {
       <ClickHandler/>
       <InputHandler/>
       <FormHandler/>
+      {/* conditional rendering */}
+      <Greeting isLoggedIn={true} />
     </>
   )
 }

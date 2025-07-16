@@ -5,6 +5,7 @@ function FormHandler() {
 
     function handleChange(event) {
         setFormdata({
+            // spread ternary operator
             ...formData,
             [event.target.name]: event.target.value
         });
@@ -23,6 +24,7 @@ function FormHandler() {
                 <input type="text" name='email' value={formData.email} onChange={handleChange} placeholder='Enter Email' />
                 <button type='submit'>Submit</button>
             </form>
+            
         </div>
     )
 }
