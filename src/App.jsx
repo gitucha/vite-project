@@ -10,6 +10,7 @@ import UserRole from "./components/UserRole";
 import Namelist from "./components/Namelist";
 import Image from "./components/Image";
 import ControlledInput from "./components/ControlledInput";
+import MultiInputForm from "./components/MultiInputForm";
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
       <Namelist/>
       <Image/>
       <ControlledInput/>
+      <MultiInputForm/>
     </>
   )
 
