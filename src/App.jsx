@@ -1,3 +1,4 @@
+import ClickHandler from "./components/ClickHandler";
 import Greetings from "./components/Greetings"
 import Todolist from "./components/Todolist";
 import UserProfile from "./components/UserProfile"
@@ -23,9 +24,12 @@ function App() {
       <Greetings name="John" />
       <Greetings name="alma" />
       <h1>User Info</h1> */}
+
       <UserProfile/>
       <Counter/>
       <Todolist/>
+      <ClickHandler/>
+      
     </>
   )
 }
