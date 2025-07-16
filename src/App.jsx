@@ -6,6 +6,8 @@ import UserProfile from "./components/UserProfile"
 import Counter from "./components/counter";
 import InputHandler from "./components/InputHandler";
 import Greeting from "./components/Greeting";
+import UserRole from "./components/UserRole";
+import Namelist from "./components/Namelist";
 
 function App() {
 
@@ -36,6 +38,10 @@ function App() {
       <FormHandler/>
       {/* conditional rendering */}
       <Greeting isLoggedIn={true} />
+      <UserRole role={'editor'}/>
+      <UserRole role={'admin'}/>
+      <UserRole role={'Viewer'}/>
+      <Namelist/>
     </>
   )
 }
