@@ -1,8 +1,10 @@
 import ClickHandler from "./components/ClickHandler";
+import FormHandler from "./components/FormHandler";
 import Greetings from "./components/Greetings"
 import Todolist from "./components/Todolist";
 import UserProfile from "./components/UserProfile"
 import Counter from "./components/counter";
+import InputHandler from "./components/InputHandler";
 
 function App() {
 
@@ -29,8 +31,8 @@ function App() {
       <Counter/>
       <Todolist/>
       <ClickHandler/>
-      <inputHandler/>
-      
+      <InputHandler/>
+      <FormHandler/>
     </>
   )
 }
