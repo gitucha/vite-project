@@ -9,6 +9,7 @@ import Greeting from "./components/Greeting";
 import UserRole from "./components/UserRole";
 import Namelist from "./components/Namelist";
 import Image from "./components/Image";
+import ControlledInput from "./components/ControlledInput";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
   //  const items = ['Apple', 'Orange', 'Grape'];
 
   return (
+
     <>
        {/* {items.map((item, index) => (
           <div key={index}>
@@ -44,8 +46,10 @@ function App() {
       <UserRole role={'Viewer'}/>
       <Namelist/>
       <Image/>
+      <ControlledInput/>
     </>
   )
+
 }
 
 export default App

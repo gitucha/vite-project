@@ -2,8 +2,10 @@ import React from 'react'
 import image from '../../public/images/phoenix.jpeg'
 
 function Image() {
+
   return (
-    <div>Image
+
+    <div>
         <img 
            src={image} 
            alt="Some phoenix image"
@@ -15,7 +17,9 @@ function Image() {
            }} 
            />
     </div>
+    
   )
+
 }
 
 export default Image

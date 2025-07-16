@@ -1,6 +1,7 @@
 import React from 'react'
 
 function UserRole({ role }) {
+
   switch (role) {
     case 'admin':
         return <h1>Welcome Admin!</h1>;
@@ -10,6 +11,7 @@ function UserRole({ role }) {
     default:
         return <h1>Welcome, Guest!</h1>
   }
+  
 }
 
 export default UserRole
