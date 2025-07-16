@@ -8,6 +8,7 @@ import InputHandler from "./components/InputHandler";
 import Greeting from "./components/Greeting";
 import UserRole from "./components/UserRole";
 import Namelist from "./components/Namelist";
+import Image from "./components/Image";
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <UserRole role={'admin'}/>
       <UserRole role={'Viewer'}/>
       <Namelist/>
+      <Image/>
     </>
   )
 }
